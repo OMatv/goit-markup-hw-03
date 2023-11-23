@@ -22,6 +22,7 @@ goit-markup-hw-03
 
 button {
     cursor: pointer;
+    background: #4D5AE5;
 }
 
 h1,
@@ -54,11 +55,12 @@ body {
     background-color: #FFF;
     line-height: 1.5;
    }
+
 .page-header {
     border-bottom: 1px;
 }
 
-.secton {
+.sect-title {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -93,7 +95,7 @@ body {
 
 .page-navigatoin {
     display: block;
-    column-gap: 40px;
+    column-gap: 24px;
     margin-right: auto;
 }
 
@@ -121,34 +123,53 @@ body {
     margin-right: 76px;
 }
 
-.logo, web {
-    color:#4D5AE5;
+.logo {
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
-
-span {
-    color:#2e2f42;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.menu-link {
+span {
+    color: #2e2f42;
+}
+
+.menu-nav {
+    font-weight: 500;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    color: #2e2f42;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
+   }
+
+.menu-nav:hover,
+.menu-nav:focus {
+    color: #404bbf;
+}
+
+.menu-address {
+    font-style: normal;
+}
+
+.menu-link {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    display: block;
+    font-weight: 400;
+    color: #434455;
+    font-style: normal; 
+    
+    display: flex;
+    margin-left: auto;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .menu-link:hover,
@@ -156,27 +177,23 @@ span {
     color: #404bbf;
 }
 
-.adress { 
-    color:#434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    display: flex;
-    margin-left: auto;
-    align-items:center;
-    justify-content: space-between;
+.page-body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF;
 }
- 
-.adress:hover,
-.adress:focus {
-    color: #404bbf;
+
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .sect-title {
-    background: #2E2F42;
+    background-color: #2E2F42;
     flex-shrink: 0;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -194,7 +211,7 @@ span {
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em;
-        }
+ }
 
 .cursor-pointer {
     border-radius: 4px;
@@ -220,6 +237,10 @@ span {
 .cursor-pointer:hover,
 .cursor-pointer:focus {
     background-color: #404BBF;
+}
+
+.section {
+    display: block;
 }
 
 .section-benefits {
@@ -299,19 +320,21 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2E2F42;
+
     text-align:center;
     font-style: normal;
     margin-bottom: 8px;
    }
        
 .team-list-text {
+   font-family: Roboto, sans-serif;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+
    text-align: center;
-   font-family: Roboto, sans-serif;
    font-style: normal;
    }
 
@@ -387,28 +410,19 @@ span {
     padding-bottom: 100px;
   }
 
-.logo-footer, web {
+.logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+  }
 
-
-.span-footer {
-    color: #F4F4FD;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-   }
+  .span-studio {
+    color: #f4f4fd;
+  }
 
 .incr-costumers {
     color: #F4F4FD;
