@@ -54,7 +54,7 @@ body {
     color: #434455;
     background-color: #FFF;
     line-height: 1.5;
-   }
+ }
 
 .page-header {
     border-bottom: 1px;
@@ -147,7 +147,7 @@ span {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-   }
+}
 
 .menu-nav:hover,
 .menu-nav:focus {
@@ -307,7 +307,6 @@ span {
 
 .img-team {
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     max-width: 100%;
     height: auto;
    
