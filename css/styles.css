@@ -60,68 +60,9 @@ body {
     border-bottom: 1px;
 }
 
-.sect-title {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.section-title {
-    color: #2E2F42;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.page-navigatoin {
-    display: block;
-    column-gap: 24px;
-    margin-right: auto;
-}
-
-.menu {
-    display: flex;
-    column-gap: 24px;
-    row-gap: 48px;
-    flex-wrap: wrap;
-  }
-
-.container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.page-header-container {
-    display:flex;
-    align-items: center;
-}
-
 .logo {
     margin-right: 76px;
-}
+    }
 
 .logo {
     color: #4D5AE5;
@@ -164,11 +105,11 @@ span {
     letter-spacing: 0.02em;
     font-weight: 400;
     color: #434455;
-    font-style: normal; 
-    
+    font-style: normal;
+
     display: flex;
     margin-left: auto;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -182,6 +123,66 @@ span {
     color: #434455;
     background-color: #FFF;
 }
+
+.page-navigatoin {
+    display: flex;
+    column-gap: 24px;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+.sect-title {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 
 
 .section-title {
