@@ -57,7 +57,7 @@ body {
  }
 
 .page-header {
-       border-bottom: 1px solid #e7e9f
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -378,9 +378,8 @@ span {
 .portfolio-list {
     display: flex;
     column-gap: 24px;
-    row-gap: 48px;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-title {
